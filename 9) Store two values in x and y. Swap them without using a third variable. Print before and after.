@@ -1,8 +1,8 @@
 print("Variable One =", end=" ")
-x=int(input())
+variableone=int(input())
 print("Variable Two =", end=" ")
-y=int(input())
-x=x+y
-y=x-y
-x=x-y
-print("Swapped One = ",x,"Swapped Two =",y)
+variabletwo=int(input())
+variableone=variableone+variabletwo
+variabletwo=variableone-variabletwo
+variableone=variableone-variabletwo
+print("Swapped One = ",variableone,"\n","Swapped Two =",variabletwo)
